@@ -15,8 +15,8 @@ class Interest {
         return (principal * rate * time) / 100;
     }
 }
-class Compare {
-    static void compare(int a, int b) {
+class Compare {static void compare(int a, int b) {
+    
         if(a > b){
             System.out.println("Amount 1 is greater than Amount 2");
         } else if(a < b) {
