@@ -39,7 +39,6 @@ public class Student {
    
     public Student() {}
     
-    
     // Getters and Setters
     public String getName() {
         return name;
@@ -47,6 +46,7 @@ public class Student {
     public int getstdID(){
         return stdID;
     }
+
     public void setName(String name) {
         this.name = name;
 
