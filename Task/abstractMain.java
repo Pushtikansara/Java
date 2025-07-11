@@ -18,6 +18,8 @@ class Tennis extends Game {
 public class abstractMain {
     public static void main(String[] args) {
         Game g = new Cricket();
+        Game t = new Tennis();
         g.play();
+        t.play();
     }
 }
