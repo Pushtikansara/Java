@@ -1,7 +1,7 @@
 package lab;
 import java.util.Scanner;
 
-public class Prac1 {
+public class Prac1_1 {
     public static void main(String[] args) {
        
         // Class1 obj = new Class1("Pushti", 52, "Computer Science", 50000);
@@ -19,7 +19,7 @@ public class Prac1 {
         String dept = sc.nextLine();
         System.out.println("Enter your salary: ");      
         int salary = sc.nextInt();
-        Class1 obj = new Class1(name, ID, dept, salary);
+        Class1_1 obj = new Class1_1(name, ID, dept, salary);
         System.out.println("Name: " + obj.getName());
         System.out.println("Student ID: " + obj.getID());
         System.out.println("Department: " + obj.getDept());
