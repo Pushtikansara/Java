@@ -77,8 +77,8 @@ interface Scholarship {
 public class StudentPortal {
 
     public static void main(String[] args) {
-        Student s1 = new Student("101", "Alice", "CSE");
-        Student s2 = new Student("102", "Bob", "IT");
+        Student s1 = new Student("52", "Pushti", "CE");
+        Student s2 = new Student("27", "Nirva", "IT");
 
         s1.addCourse("Java", 3);
         s1.addCourse("Python", 4);

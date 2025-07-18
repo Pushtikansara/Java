@@ -6,7 +6,6 @@ public class Class1_1 {
     private String dept;
     private int salary;
 
-    
     public Class1_1() {
         name = "No name";
         ID = 0;
