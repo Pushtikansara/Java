@@ -18,7 +18,24 @@ public class Task1 {
             System.out.println(str1.indexOf("s"));
             System.out.println(str1.lastIndexOf("s"));// last occurrence of 's'
             System.out.println(str1.substring(1, 4)); // from index 1 to index 3
-
+            String str3=" Pushti Kansara";
+            System.out.println(str3.contains("Kansara"));
+            System.out.println(str3.toUpperCase());
+            System.out.println(str3.toLowerCase());
+            System.out.println(str3.equalsIgnoreCase("pushti kansara"));
+            System.out.println(str3.trim());
+            System.out.println(str3.replace("Pushti", "Kansara"));
+            System.out.println(str3.replaceAll("a", "i"));// replace all occurrences of "a " with "i"
+            System.out.println(str3.split(" ")); // splits the string by space and returns an
+            StringBuffer strBuffer = new StringBuffer("Mahek Patel ");
+            strBuffer.append("Shah");
+            System.out.println(strBuffer);
+            strBuffer.insert(6, "Kumar ");
+            System.out.println(strBuffer);
+            strBuffer.delete(6, 12);
+            System.out.println(strBuffer);
+            strBuffer.reverse();
+            System.out.println(strBuffer); 
         }
     
 }
