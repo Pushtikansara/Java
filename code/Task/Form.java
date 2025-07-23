@@ -14,8 +14,8 @@ public class Form {
        }else{
            System.out.println("Invalid Pincode");
        }
-       String emailPattern = "[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,}";
-       String email = "pushtikansara@gmail.com";
+       String emailPattern = "^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,}";
+       String email = "1pushtikansara@gmail.com";
        if(email.matches(emailPattern)){
            System.out.println("Valid Email");
        }else{
