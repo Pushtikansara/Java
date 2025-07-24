@@ -10,12 +10,15 @@ interface B extends A
 }
 interface C extends A{
 
-double
+double getC(double c);
 }
 interface D extends B,C{
 
+    long getD(long d);
+
 }
 
+class E implem
 
 public class InterfaceCalc {
     
