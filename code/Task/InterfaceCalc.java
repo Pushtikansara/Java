@@ -50,6 +50,6 @@ public class InterfaceCalc {
         long d = e.getD(100);
 
         double result = a * b * c * d;
-        System.out.println("Result:" + result);
+        System.out.println("Result=" + result);
     }
 }
