@@ -1,5 +1,3 @@
-package Task;
-
 public class Task1 {
       public static void main(String[] args) {
           String str1 = "Pushti";
@@ -26,7 +24,7 @@ public class Task1 {
             System.out.println(str3.trim());
             System.out.println(str3.replace("Pushti", "Kansara"));
             System.out.println(str3.replaceAll("a", "i"));// replace all occurrences of "a " with "i"
-            System.out.println(str3.split(" ")); // splits the string by space and returns an
+            System.out.println(java.util.Arrays.toString(str3.split(" "))); // splits the string by space and prints the array
             StringBuffer strBuffer = new StringBuffer("Mahek Patel ");
             strBuffer.append("Shah");
             System.out.println(strBuffer);

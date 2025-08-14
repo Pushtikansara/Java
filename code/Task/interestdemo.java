@@ -27,7 +27,7 @@ class Compare {static void compare(int a, int b) {
     }
 }
 
-public class interestdemo {
+public class Interestdemo {
     public static void main(String[] args) {
         int Amount1, Amount2;
 
