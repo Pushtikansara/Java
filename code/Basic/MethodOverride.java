@@ -1,26 +1,41 @@
 package Basic;
 // Parent class
 class Animal {
-    void sound() {
+   static void sound() {
         System.out.println("Animal makes a sound");
+    }
+    public void colour()
+    {
+        System.out.println("Colour is black");
     }
 }
 
 // Child class
 class Dog extends Animal {
-    @Override // Annotation to indicate overriding
-    void sound() {
+    // Static methods cannot be overridden
+    static void sound() {
         System.out.println("Dog barks");
     }
+    public void colour() {
+        System.out.println("Dog is white.");
+    }
+
 }
 
-// Main class to test
+
 public class MethodOverride{
     public static void main(String[] args) {
-        Animal myAnimal = new Animal();  // Animal reference, Animal object
-        Animal myDog = new Dog();        // Animal reference, Dog object
+        Animal myAnimal = new Animal(); 
+        Animal myDog = new Dog();  //the method call is determined by the reference type not the object type
+        Dog obj=new Dog();  
 
-        myAnimal.sound(); // Output: Animal makes a sound
-        myDog.sound();    // Output: Dog barks
+
+        Animal.sound(); 
+        myDog.sound();   
+        Dog.sound(); 
+        
+        myAnimal.colour(); 
+        myDog.colour(); //not static so called child class method
+        obj.colour(); 
     }
 }
