@@ -7,12 +7,22 @@ abstract class animal
     }
 }
 class cat extends animal{
-    public void colour{
+    public void colour(){
         System.out.println("Cat is white");
     }
-    
+      public void sound(){
+        System.out.println("Meow meow");
+    }
 
 }
 public class Abstract {
+    public static void main(String[] args) {
+        animal obj=new cat();
+        System.out.print("Colour of cat: ");
+        obj.colour();
+        System.out.print("Sound is: ");
+        obj.sound();
+
+    }
     
 }
