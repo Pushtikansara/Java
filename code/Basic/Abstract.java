@@ -11,7 +11,7 @@ class cat extends animal{
         System.out.println("Cat is white");
     }
       public void sound(){
-        System.out.println("Meow meow");
+        System.out.println("Meow");
     }
 
 }
