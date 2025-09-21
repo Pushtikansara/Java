@@ -30,9 +30,9 @@ class myException extends Exception{
 public class ExceptionEx {
     public static void main(String[] args) {
         myException obj=new myException();
-        obj.setAge(17);
-        obj.setAge(25);
-        obj.setAge(65);
+        obj.setAge(15);
+        obj.setAge(90);
+        obj.setAge(55);
     }
 
     
