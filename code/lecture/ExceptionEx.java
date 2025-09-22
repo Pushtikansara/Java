@@ -32,7 +32,7 @@ public class ExceptionEx {
         myException obj=new myException();
         obj.setAge(15);
         obj.setAge(90);
-        obj.setAge(55);
+        obj.setAge(52);
     }
 
     
