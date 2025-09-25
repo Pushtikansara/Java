@@ -1,0 +1,14 @@
+package Task;
+import java.io.File;
+import java.nio.file.Paths;
+import java.nio.file.Path;
+
+
+public class PathExample {
+    public static void main(String[] args) {
+        Path path = Paths.get("D:\\Java\\code\\Task\\abc.txt");
+        System.out.println( path.getFileName());
+        System.out.println("Parent Directory: " + path.getParent());
+        System.out.println("Root: " + path.getRoot());
+    }
+}
