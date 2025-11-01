@@ -44,7 +44,7 @@ public class MyFile {
         if(file.delete()){
             System.out.println("File deleted successfully");
         } else {
-            System.out.println("Failed to delete the file.Please try again.");
+            System.out.println("Failed to delete the file. Please try again.");
         }
     }
 
