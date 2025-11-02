@@ -9,13 +9,13 @@ import java.io.FileNotFoundException;
 public class MyFile {
     public static void main(String[] args) {
         // Create a new file
-        // File file = new File("testfile.txt");
-        // try{
-        //     file.createNewFile();
-        // } catch(IOException e){
-        //     System.out.println("An error occurred.");
-        //     e.printStackTrace();
-        // }
+        File file = new File("testfile.txt");
+        try{
+            file.createNewFile();
+        } catch(IOException e){
+            System.out.println("An error occurred.");
+            e.printStackTrace();
+        }
 
         //Code to write to a file
         // try{
@@ -40,12 +40,12 @@ public class MyFile {
         //     e.printStackTrace();
         // }
         //Code to delete a file
-        File file = new File("testfile.txt");
-        if(file.delete()){
-            System.out.println("File deleted successfully");
-        } else {
-            System.out.println("Failed to delete the file. Please try again.");
-        }
-    }
+    //     File file = new File("testfile.txt");
+    //     if(file.delete()){
+    //         System.out.println("File deleted successfully");
+    //     } else {
+    //         System.out.println("Failed to delete the file. Please try again.");
+    //     }
+     }
 
 }
