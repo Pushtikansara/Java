@@ -18,14 +18,14 @@ public class MyFile {
         }
 
         //Code to write to a file
-        // try{
-        //     FileWriter writer=new FileWriter("testfile.txt");
-        //     writer.write("Hello, this is a test file.");
-        //     writer.close();
-        // } catch(IOException e){
-        //     System.out.println("An error occurred.");
-        //     e.printStackTrace();
-        // }
+        try{
+            FileWriter writer=new FileWriter("testfile.txt");
+            writer.write("Hello, this is a test file.");
+            writer.close();
+        } catch(IOException e){
+            System.out.println("An error occurred.");
+            e.printStackTrace();
+        }
         // //Code to read from a file
         // File file = new File("testfile.txt");
         // try{
