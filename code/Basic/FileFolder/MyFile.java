@@ -27,18 +27,18 @@ public class MyFile {
             e.printStackTrace();
         }
         // //Code to read from a file
-        // File file = new File("testfile.txt");
-        // try{
-        //     Scanner reader = new Scanner(file);
-        //     while(reader.hasNextLine()){
-        //         String line = reader.nextLine();
-        //         System.out.println(line);
-        //     }
-        //     reader.close();
-        // } catch(FileNotFoundException e){
-        //     System.out.println("An error occurred.");
-        //     e.printStackTrace();
-        // }
+        File file = new File("testfile.txt");
+        try{
+            Scanner reader = new Scanner(file);
+            while(reader.hasNextLine()){
+                String line = reader.nextLine();
+                System.out.println(line);
+            }
+            reader.close();
+        } catch(FileNotFoundException e){
+            System.out.println("An error occurred.");
+            e.printStackTrace();
+        }
         //Code to delete a file
     //     File file = new File("testfile.txt");
     //     if(file.delete()){
