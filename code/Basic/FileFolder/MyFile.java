@@ -40,12 +40,12 @@ public class MyFile {
             e.printStackTrace();
         }
         //Code to delete a file
-    //     File file = new File("testfile.txt");
-    //     if(file.delete()){
-    //         System.out.println("File deleted successfully");
-    //     } else {
-    //         System.out.println("Failed to delete the file. Please try again.");
-    //     }
+        File file = new File("testfile.txt");
+        if(file.delete()){
+            System.out.println("File deleted successfully");
+        } else {
+            System.out.println("Failed to delete the file. Please try again.");
+        }
      }
 
 }
