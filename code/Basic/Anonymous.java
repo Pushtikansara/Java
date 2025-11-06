@@ -1,4 +1,4 @@
-package lecture;
+package Basic;
 class A
 {
      A()
