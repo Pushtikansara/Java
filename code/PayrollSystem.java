@@ -57,7 +57,7 @@ class Employee implements Payable, Searchable {
             this.weeklyHours[week - 1] = hours;
             System.out.println("Hours recorded for week " + week + " for employee ID " + empId);
         } else {
-            System.out.println("Invalid week number. Must be between 1 and 4.");
+            System.out.println("Invalid week number.");
         }
     }
 
