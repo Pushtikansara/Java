@@ -68,7 +68,7 @@ class Employee implements Payable, Searchable {
 
     @Override
     public void displayDetails() {
-        System.out.println(" Employee Details ");
+        System.out.println("Employee Details");
         System.out.println("ID: " + empId);
         System.out.println("Name: " + name);
         System.out.println("Department: " + department);
