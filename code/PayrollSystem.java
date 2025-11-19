@@ -74,7 +74,7 @@ class Employee implements Payable, Searchable {
         System.out.println("Department: " + department);
         System.out.printf("Base Salary: $%.2f%n", baseSalary);
         System.out.println("Weekly Hours: " + Arrays.toString(weeklyHours));
-        System.out.printf("Total Salary (with Overtime): $%.2f%n", calculateSalary());
+        System.out.printf("Total Salary : $%.2f%n", calculateSalary());
     }
 
     public int getEmpId() {
